@@ -74,9 +74,7 @@ jobs:
             passphrase: ${{ secrets.PASSPHRASE }}
             script: |
               ls
-			
-			
-  
+
   send_message: 
     runs-on: ubuntu-latest 
     needs: deploy
