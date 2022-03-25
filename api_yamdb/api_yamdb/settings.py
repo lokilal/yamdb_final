@@ -9,7 +9,14 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='SUP3R-S3CR3T-K3Y-F0R-MY-PR0J3CT')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOST', default=list(
+[   'localhost',
+    '127.0.0.1',
+    '[::1]',
+    'timeserver',
+    '84.201.138.241',
+    'lokilal.ddns.net',
+]))
 
 # Application definition
 
