@@ -22,3 +22,4 @@
 - ``` docker-compose exec web python manage.py loaddata fixtures.json ```
 
 ##### Created by lokilal 
+[![Django-app workfow](https://github.com/lokilal/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/lokilal/yamdb_final/actions/workflows/yamdb_workflow.yml)
